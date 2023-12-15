@@ -1,0 +1,30 @@
+<div>
+    <h1>{{curriculumData.informacionPersonal.nombre}}</h1>
+    <p>Fecha de Nacimiento:{{curriculumData.informacionPersonal.fechaNacimiento}}</p>
+    <p>Email{{curriculumData.informacionPersonal.email}}</p>
+    <p>Teléfono{{curriculumData.informacionPersonal.tel}}</p>
+    <h2>Descripción Personal</h2>
+    <p>{{descripcionPersonal}}</p>
+    <h2>Objetivos</h2>
+    <p>{{objetivos}}</p>
+    <h2>Estudios Realizados</h2>
+    <ul>
+        <li *ngFor="let estudios of curriculumData.estudiosRealizados">
+            {{curso}}, {{cursoCoursera}} y {{escuela}}
+        </li>
+    </ul>
+    <h2>Habilidads</h2>
+    <p>{{habilidades}}</p>
+    <h2>Proyectos Profesionalizante</h2>
+    <ul>
+        <li *ngFor="let proyectos of curriculumData.proyectosProfesionalizante" >
+            {{primero}}, {{segundo}}, {{tercero}}
+        </li>
+    </ul>
+    <h2>Herramientas</h2>
+    <ul>
+        <li *ngFor="let herramientas of curriculumData.herramientas" >
+            {{VS}}, {{HTML}}, {{CSS}}, {{Py}}, {{ SQL}}, {{Git}}, {{GitHub}}
+        </li>
+    </ul>
+</div>

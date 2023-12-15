@@ -1,0 +1,31 @@
+{
+    "informacionPersonal": {
+        "nombre": "Renata Millaledeo Sáez",
+        "fechaNacimiento": "26/04/2005",
+        "email": "renamilla95@gmail.com",
+        "tel": "1234567890"
+    },
+    "descripcionPersonal": "Estudiante de último año de secundaria, con interés en Neuropsicología y Neurocirugía",
+    "objetivos": "Estudiar medicina y psicología forense",
+    "experienciaLaboral": "Desarrollo en plataforma escolar y Niñera",
+    "estudiosRealizados": {
+        "curso": "Cyber Seguridad",
+        "cursoCoursera": "Introducción a la Psicología",
+        "escuela": "Estudios en Educación Técnica Profesional"
+    },
+    "habilidades": "Buen aprendizaje, muy buena escuchando, trabajo bajo presión",
+    "proyectosProfesionalizantes": {
+        "primero": "SQL",
+        "segundo": "Práctica de CSS",
+        "tercero": "Frontend y Backend de cero"
+    },
+    "herramientas": {
+        "VS": "VSCode",
+        "HTML": "HTML",
+        "CSS": "CSS",
+        "Py": "Python",
+        "SQL": "SQLWorkbench",
+        "Git": "Git",
+        "GitHub": "GitHub"
+    }
+}
